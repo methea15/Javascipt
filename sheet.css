@@ -1,0 +1,66 @@
+body{
+    font-size: 25px;
+    color: brown;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+h1{
+    font: 30px 'Times New Roman';
+    color: blue;   
+}
+.choose{
+    margin-bottom: 30px;
+}
+section{
+    padding: 40px;
+    background-color: bisque;
+}
+button{
+    text-align: center;
+    display: inline;
+    margin: 0 20px;
+    border-radius: 25px;
+    cursor:pointer;
+   
+}
+.rock{
+    background-image: url('rock.jpg');
+   background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 75px;
+}
+.paper{
+    background-image: url('paper.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 75px;
+}
+.scissors{
+    background-image: url('scissor.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    padding: 75px;
+}
+.choose button:hover{
+    background-color: bisque;
+}
+#result{
+    font-size: 25px;
+    margin: 40px 0;
+    color: blueviolet;
+}
+
+#letreset{
+    color: orange;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: flex;
+    float: left;
+}
